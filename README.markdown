@@ -1,3 +1,14 @@
+# Server
+For development purposes one may just use the [built-in web server](http://www.php.net/manual/en/features.commandline.webserver.php) 
+that comes bundled with PHP since version 5.4.0.
+
+```bash
+php -S localhost:8989
+```
+
+It's up to you to determine which port to use, as long as it's not being used
+by another application.
+
 # Database
 Setup MySQL on Heroku by setting up the ClearDB addon.
 The free plan is the ignite plan :wink:
