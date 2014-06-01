@@ -1,2 +1,2 @@
 # start the dev server
-php -S localhost:9898
+php -S localhost:9898 -t public
