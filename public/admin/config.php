@@ -16,7 +16,7 @@ define('DIR_CONFIG', getenv("BASE").'/public/system/config/');
 define('DIR_IMAGE', getenv("BASE").'/public/image/');
 define('DIR_CACHE', getenv("BASE").'/public/system/cache/');
 define('DIR_DOWNLOAD', getenv("BASE").'/public/system/download/');
-define('DIR_LOGS', getenv("BASE").'/public/system/logs/');
+define('DIR_LOGS', getenv("BASE").'/logs/admin/');
 define('DIR_MODIFICATION', getenv("BASE").'/public/system/modification/');
 define('DIR_CATALOG', getenv("BASE").'/public/catalog/');
 

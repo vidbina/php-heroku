@@ -15,7 +15,7 @@ define('DIR_IMAGE', getenv("BASE").'/public/image/');
 define('DIR_CACHE', getenv("BASE").'/public/system/cache/');
 define('DIR_DOWNLOAD', getenv("BASE").'/public/system/download/');
 define('DIR_MODIFICATION', getenv("BASE").'/public/system/modification/');
-define('DIR_LOGS', getenv("BASE").'/logs/');
+define('DIR_LOGS', getenv("BASE").'/logs/public/');
 
 // DB
 $url=parse_url(getenv("DATABASE_URL"));
